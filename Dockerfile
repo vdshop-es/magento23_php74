@@ -31,6 +31,7 @@ RUN docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-di
     pdo_mysql \
     opcache \
     soap \
+    sockets \
     xml \
     xsl \
     zip
